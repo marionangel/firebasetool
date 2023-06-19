@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60174984706",
+    "project_id": "fir-tool-ec0f2",
+    "storage_bucket": "fir-tool-ec0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60174984706:android:03acb2770e7bd79988691b",
+        "android_client_info": {
+          "package_name": "com.example.firebasetool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60174984706-gm5al57d98i1j6st16ma2ga4vfgrs9mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxRYLFay-oyICPnRMYJhkOG2X0KF-2IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60174984706-gm5al57d98i1j6st16ma2ga4vfgrs9mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

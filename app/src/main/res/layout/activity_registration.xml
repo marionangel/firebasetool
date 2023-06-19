@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#695C80"
+    android:layout_height="match_parent"
+    tools:context=".Re">
+
+
+    <EditText
+        android:id="@+id/EdtAddress"
+        android:layout_marginTop="55sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="Enter Email Address"
+        android:background="#564673"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:textSize="50sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/EdtPass"
+        android:layout_marginTop="55sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="50sp"
+        android:hint="Enter Password"
+        android:textColorHint="@color/white"
+        android:background="#4B3A68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Edtconpass"
+        android:layout_width="match_parent"
+        android:layout_marginTop="55sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="50sp"
+        android:hint="Confirm Password"
+        android:background="#403359"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:backgroundTint="#7A6F8F"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:backgroundTint="#725C98" />
+
+    <TextView
+        android:id="@+id/Tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:text="Register here"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#170E25"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>
